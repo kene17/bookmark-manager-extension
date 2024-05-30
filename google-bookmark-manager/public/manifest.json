@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Google Bookmark Manager",
+  "version": "1.0.0",
+  "description": "A Chrome extension to manage Google bookmarks.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": ["bookmarks", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options.html",
+  "icons": {
+    "48": "icon.png"
+  }
+}
